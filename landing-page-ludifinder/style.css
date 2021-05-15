@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #F9F9F9;
+}
+
+/*Header*/
+button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.buttonHead {
+    padding: 0 3rem;
+    height: 48px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    box-shadow: lightgrey 0 3px 6px;
+}
+
+.buttonLink {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+#ajout {
+    background-color: #EE299E;
+    margin-right: 40px;
+}
+
+.lastButton {
+    height: 40px;
+    margin: auto 10px;
+    padding: 0 20px;
+}
+
+#connexion {
+    background-color: white;
+}
+
+#inscription {
+    background-color: #009FE3;
+}
+
+header {
+    display: flex;
+    background: #F9F9F9;
+    box-shadow: lightgrey 0 3px 6px;
+}
+
+.logHead {
+    width: 310px;
+    height: auto;
+    padding: 20px 0 20px 42px;
+}
+
+.content-header {
+    display: flex;
+    margin-left: auto;
+}
+
+a {
+    font-family: 'Oxygen', sans-serif;
+    text-decoration: none;
+}
+
+.simpleLink {
+    color: #707070;
+    font-size: 30px;
+}
+
+.content-header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.content-header li {
+    padding: 20px 38px 20px 38px;
+}
+
+/*sections*/
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+section:nth-child(2n) {
+    background-color: white;
+}
+
+section:nth-child(7) {
+    background-color: white;
+}
+
+/*footer*/
+footer {
+    height: 80vh;
+    width: 100vw;
+    background-color: #F9F9F9;
+}
+
+.footerContent, .footerTitle {
+    display: flex;
+}
+
+.footerTitle h4{
+    margin: auto;
+}
+
+.footerContent > div {
+    margin: 4rem auto 0 auto;
+    padding: 0 50px;
+}
+
+div.colonneUn {
+    display: flex;
+    border-right: 2px solid black;
+    margin-right: 0;
+}
+
+div.colonneDeux {
+    border-right: 2px solid black;
+    margin-right: 0;
+    margin-left: 0;
+}
+div.colonneTrois {
+    margin-left: 0;
+}
+.colonneDeux ul {
+
+}
+
+.int {
+    margin: 0 100px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a {
+    color: #707070;
+    font-size: 24px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+footer li {
+    padding-top: 20px;
+}
+
+footer h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+/*Fin*/
+
+div.fin {
+    display: flex;
+    flex-flow: wrap-reverse;
+    height: 200px;
+}
+div.fin > p, div.fin > h3, div.fin > div.réseaux {
+    margin: auto auto 10px auto;
+}
+.fin h3 {
+    font-family: 'ColorTube', sans-serif;
+    font-size: 1.5rem;
+}
+div.réseaux ul {
+    display: flex;
+    align-items: center;
+}
+div.réseaux li {
+    margin: 0 25px;
+}
+div.réseaux img {
+    width: 60px;
+}
+
+/*spécial*/
+
+.hidden {
+    visibility: hidden;
+}
+img {
+    font-family: 'Oxygen', sans-serif;
+}
